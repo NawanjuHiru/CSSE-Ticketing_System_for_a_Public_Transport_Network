@@ -35,7 +35,7 @@
     <div class="col-md-8">
         <div class="card custom-card">
             <div class="card-body">
-                <h6 class="card-title mb-4">Card Type Information</h6>
+                <h6 class="card-title mb-4">Long Ride Card Information</h6>
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group @error('cardName') has-danger @enderror">
