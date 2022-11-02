@@ -29,7 +29,7 @@ class LoginController extends Controller
             return redirect()->back()->withInput()->withErrors($validatedData->errors());
         }else{
             if($request->email == 'longride@gmail.com' && $request->password == '123456'){
-                return redirect(route('passenger_index',['type' => '']));
+                return redirect('dashboard');
             }else{
                 return redirect()->back()->withInput()->with('error_message', 'Email or password invalid.');
             }

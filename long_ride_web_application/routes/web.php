@@ -21,9 +21,9 @@ use App\Http\Controllers\TimeTableController;
 |
 */
 
-// Route::get('/', function () {
-//     return view('sample');
-// });
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});
 
 Route::get('/report', function () {
     return view('reports.index');

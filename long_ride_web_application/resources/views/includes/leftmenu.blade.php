@@ -37,7 +37,7 @@
 
         <ul class="side-menu">
             <li class="slide">
-                <a class="side-menu__item text-white" data-toggle="slide" href="#"><i
+                <a class="side-menu__item text-white" data-toggle="slide" href="/dashboard"><i
                         class="fe fe-layers"></i>&nbsp;&nbsp;<span class="side-menu__label">Dashboard</span></a>
             </li>
 
@@ -78,7 +78,8 @@
                         class="fe fe-credit-card"></i>&nbsp;&nbsp;<span class="side-menu__label">Card Types</span><i
                         class="angle fe fe-chevron-down"></i></a>
                 <ul class="slide-menu">
-                    <li><a class="slide-item" href="{{ route('card_index', ['action' => '']) }}">All Card Types</a></li>
+                    <li><a class="slide-item" href="{{ route('card_index', ['action' => '']) }}">All Card Types</a>
+                    </li>
                     <li><a class="slide-item" href="{{ route('card_view', ['action' => 'add', 'id' => '']) }}">Add Card
                             Type</a></li>
                 </ul>
