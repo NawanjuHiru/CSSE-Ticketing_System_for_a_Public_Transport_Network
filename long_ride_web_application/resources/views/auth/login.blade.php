@@ -44,15 +44,8 @@
                                                     <strong>{{ $message }}</strong>
                                                 </span>
                                             @enderror
-                                            <p><a href="#" class="text-success">
-                                                    <h6>Forgot password?</h6>
-                                                </a></p>
                                         </div>
                                         <button class="btn btn-success btn-block login-btn" type="submit">Log In</button>
-                                        <div class="main-signin-footer mt-5 text-center">
-                                            <p><a href="#" class="text-success">New To Smart Traveller? Get
-                                                    Started</a></p>
-                                        </div>
                                     </form>
 
                                 </div>
