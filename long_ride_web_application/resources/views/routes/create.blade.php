@@ -1,11 +1,6 @@
 @extends('layouts.default')
 
 @push('styles')
-    <style>
-        /* .card {
-                                                                                                                height: 200px !important;
-                                                                                                            } */
-    </style>
 @endpush
 
 @section('title', 'Routes')
@@ -492,7 +487,7 @@
             'Wennappuwa',
         ];
 
-        $modes = ['Pay as you go', 'Season ticket'];
+        $modes = ['Pay as you go', 'Season ticket', 'Travel plan'];
 
         if ($action != 'add') {
             $id = $data['route']->routeId;
