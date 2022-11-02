@@ -1,6 +1,8 @@
 # LongRide-Ticketing-System 
 # Group Number 
+<ul>
   <li>SE3070_WE_02</li>
+</ul>
 
 # Contributors
 <ol>
