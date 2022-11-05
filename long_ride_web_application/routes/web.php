@@ -9,7 +9,7 @@ use App\Http\Controllers\VehicleController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TicketInspectorController;
 use App\Http\Controllers\TimeTableController;
-
+use App\Http\Controllers\StripePaymentController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -115,3 +115,10 @@ Route::post('/login',[LoginController::class, 'index'])->name('login_index');
 Route::get('/', function(){
     return view('auth.login');
 });
+
+
+
+
+
+Route::get('stripe', [StripePaymentController::class, 'stripe']);
+Route::post('stripe', [StripePaymentController::class, 'stripePost'])->name('stripe.post');

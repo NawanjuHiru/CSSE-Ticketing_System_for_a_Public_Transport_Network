@@ -53,6 +53,7 @@
                 </div>
             </div>
         </div>
+        
     </div>
 
     {{-- <div class="modal effect-fall" id="inspectorModal">
